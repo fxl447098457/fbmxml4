@@ -71,6 +71,7 @@ End Sub
 chdir exepath()
 #Ifndef __fb_64_bit__
 #libpath "lib/win32"
+#else
 #libpath "lib/win64"
 #endif
 ' test2.xml does not have an <?xml ?> tag
